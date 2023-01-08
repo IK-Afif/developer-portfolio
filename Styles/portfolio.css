@@ -9,6 +9,11 @@
     color: #FD6E0A;
 }
 
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
 .btn-primary{
     height: 64px;
     border-radius: 5px;
@@ -19,6 +24,18 @@
     border: 0;
     padding: 18px 36px;
 }
+
+.btn-secondary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF8F3;;
+    color: #FD6E0A;
+    padding: 19px 23px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+}
+
 
 header{
     background: #FFF8F3;
@@ -72,6 +89,11 @@ nav li{
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
+    width: 585px;
+}
+
+.hardy{
+    padding-left: 300px;
 }
 
 /* main section */
